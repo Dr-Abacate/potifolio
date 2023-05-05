@@ -36,7 +36,12 @@ body { /*corpo do texto */
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    
+    transition: 0.2s;
+}
+
+.cabecalho__menu__links:hover {
+    color: var(--cor-quartenaria);
+    transform: scale(1.1);
 }
 .imagem {
     width: 40%;
@@ -129,11 +134,13 @@ body { /*corpo do texto */
     font-size: 1.5rem;
     color: #f6f6f6;
     text-decoration: none;
+    transition: 0.2s;
 }
 
-.apresentacao__links__botao:hover { /* Animsção hover botão*/
+.apresentacao__links__botao:hover { /* Animação hover botão*/
     background-color: var(--cor-hover);
     padding: 3%;
+    transform: scale(1.1);
 }
 
 .rodape {
