@@ -41,10 +41,12 @@ body { /*corpo do texto */
 .imagem {
     width: 40%;
     border-radius: 10%;
+    transition: 0.4s;
 }
 
 .imagem:hover { /* Animação hover imagem*/
     width: 43%;
+    transform: scale(1.1);
 }
 
 .apresentacao { /* Main */
