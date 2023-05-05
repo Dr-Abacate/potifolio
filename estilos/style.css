@@ -49,6 +49,7 @@ body { /*corpo do texto */
 
 .apresentacao { /* Main */
     padding: 5% 15%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,6 +151,11 @@ body { /*corpo do texto */
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 50px;
+    }
+
+    .imagem {
+        width: 50%;
     }
 
     .apresentacao {
@@ -157,7 +163,14 @@ body { /*corpo do texto */
         padding: 5%;
     }
 
+    .apresentacao__curriculo {
+        flex-direction: column-reverse;
+        padding: 5%;
+        align-items: center;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
 }
+
