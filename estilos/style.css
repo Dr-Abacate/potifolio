@@ -61,6 +61,7 @@ body { /*corpo do texto */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo { /* Section para criar um conteiner para formatação do Título e conteúdo do texto */
