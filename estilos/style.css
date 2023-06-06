@@ -28,7 +28,19 @@ body { /*corpo do texto */
 
 .cabecalho__menu {
     display: flex;
+    align-items: center;
     gap: 80px;
+}
+
+.cabecalho__logo {
+    width: 13%;
+    border-radius: 20%;
+    transition: 0.4s;
+}
+
+.cabecalho__logo:hover{
+    width: 15%;
+    transform: scale(1.1);
 }
 .cabecalho__menu__links {
     font-family: var(--font-secundaria);
